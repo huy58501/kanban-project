@@ -17,9 +17,11 @@ class App extends Component {
     editedTaskId: null,
     columns: fromJS([
       { id: 'td', title: 'DOING', tasks: [{id: '1', content: 'Demo task', time: '04/15/2019, 9:25:35 PM'}, 
-                                          {id: '2', content: 'Demo task', time: '04/15/2019, 9:25:35 PM'}] },
-      { id: 'ip', title: 'IN PROGRESS', tasks: [{id: '3', content: 'Doing task', time: '04/15/2019, 9:25:35 PM'}] },
-      { id: 'de', title: 'COMPLETED', tasks: [{id: '4', content: 'Testing task', time: '04/15/2019, 9:25:35 PM'}] }
+                                          {id: '2', content: 'Design task', time: '04/15/2019, 9:25:35 PM'}] },
+      { id: 'ip', title: 'IN PROGRESS', tasks: [{id: '3', content: 'Doing task', time: '04/15/2019, 9:25:35 PM'},
+                                                {id: '4', content: 'Deploy task', time: '04/15/2019, 9:25:35 PM'}] },
+      { id: 'de', title: 'COMPLETED', tasks: [{id: '5', content: 'Testing task', time: '04/15/2019, 9:25:35 PM'},
+                                              {id: '6', content: 'Feedback task', time: '04/15/2019, 9:25:35 PM'}] }
     ])
   }
 
