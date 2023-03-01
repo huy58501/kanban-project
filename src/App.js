@@ -16,12 +16,12 @@ class App extends Component {
     editingTaskIndex: null,
     editedTaskId: null,
     columns: fromJS([
-      { id: 'td', title: 'DOING', tasks: [{id: '1', content: 'Demo task', time: '04/15/2019, 9:25:35 PM'}, 
-                                          {id: '2', content: 'Design task', time: '04/15/2019, 9:25:35 PM'}] },
-      { id: 'ip', title: 'IN PROGRESS', tasks: [{id: '3', content: 'Doing task', time: '04/15/2019, 9:25:35 PM'},
-                                                {id: '4', content: 'Deploy task', time: '04/15/2019, 9:25:35 PM'}] },
-      { id: 'de', title: 'COMPLETED', tasks: [{id: '5', content: 'Testing task', time: '04/15/2019, 9:25:35 PM'},
-                                              {id: '6', content: 'Feedback task', time: '04/15/2019, 9:25:35 PM'}] }
+      { id: 'doing', title: 'DOING', tasks: [{id: '1', content: 'Demo task', time: '04/15/2019, 9:25:35 PM'}, 
+                                          {id: '2', content: 'Design task', time: '04/12/2019, 9:25:35 PM'}]},
+      { id: 'inprogress', title: 'IN PROGRESS', tasks: [{id: '3', content: 'Doing task', time: '04/10/2019, 9:25:35 PM'},
+                                                {id: '4', content: 'Deploy task', time: '04/10/2019, 9:25:35 PM'}]},
+      { id: 'completed', title: 'COMPLETED', tasks: [{id: '5', content: 'Testing task', time: '04/09/2019, 9:25:35 PM'},
+                                              {id: '6', content: 'Feedback task', time: '04/08/2019, 9:25:35 PM'}]}
     ])
   }
 
