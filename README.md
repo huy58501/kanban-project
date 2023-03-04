@@ -1,3 +1,12 @@
+https://huy58501.github.io/kanban-project
+
+
+
+![Screenshot 2023-03-03 at 10 57 43 PM](https://user-images.githubusercontent.com/97963939/222874658-b65386d3-0295-4838-be07-79aeb7f1d892.png)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
